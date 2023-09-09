@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build-dev": "ng build --project nepali-datepicker-angular",
-    "build-prod": "ng build --project nepali-datepicker-angular"
+    "build-prod": "ng build --project nepali-datepicker-angular",
+    "build-gh-page": "ng build --project datepicker-test --output-path docs --base-href /angular-nepali-datepicker/"
   },
   "private": true,
   "dependencies": {
